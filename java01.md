@@ -58,7 +58,7 @@ Los paréntesis se usan para asociar y dar prioridad. Las expreciones se evaluan
     b = --a;
     a -= b++ - --a;
 ```
-¿Cuál es el valor de de a?
+¿Cuál es el valor de a?
 
 ```java
 	int a[] = {0, 1, 2, 3};
@@ -67,7 +67,7 @@ Los paréntesis se usan para asociar y dar prioridad. Las expreciones se evaluan
 	int k = --i;
 	i = a[k++];
 ```
-¿Cuál es el valor de de i?
+¿Cuál es el valor de i?
 
 
 ### 1.4 Operadaores relacionales
@@ -87,9 +87,6 @@ Los paréntesis se usan para asociar y dar prioridad. Las expreciones se evaluan
 
 expr ? treu : false;
 
-
-
-
 # 2. Estructuras de control
 
 ### 2.1 if - else
@@ -102,6 +99,52 @@ expr ? treu : false;
 		for each
         for (variables :  conjunto )
 
+<!-- Ejemplo en progrmas//java00/Enum.java -->
 
 # 3 Mas tipos de datos
+
+### Arreglos
+
+Un [Arreglo](https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Array.html 'Array') es una estructura de datos que nos permite guardar una cantidad de datos del mismo tipo
+
+Para evita hacer cosa como esto se crean los arrglos:
+
+```java
+	String nombre1 = "Pedro";
+    String nombre2 = "Pablo";
+			.
+			.
+			.
+	String nombreN = "Enesimo";
+```
+
+tipo[ ] variable = new tipo[tamaño];
+
+```java
+	
+```
+
+
+Arreglos multudimensionales o matrices.
+
+    int[][]  matriz = new int[3][2];
+    	o
+   int[][]  matriz;
+   matriz = new int[3][2]; int[][]
+
+   matriz = {{1,2},{3,4},{5,6}};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
