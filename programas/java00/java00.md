@@ -195,7 +195,6 @@ Las mas usadas son:
 
 Se pueden realizar sumas con caracteres:
 ```java
-char letra;
 letra = ('F' + 3)	// error
 letra = (char) ('F' + 3); //correcto
 ```
@@ -434,7 +433,7 @@ Esto se puede representar en una linea.
 
 Para facitar la lectura de datos se crea la clase [*Scanner*](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html "Class Scanner"), que a su vez se enlaza con la clase System.in. La clase *Scanner* se define el paquete java.util (utilerias.4)
 
-1. Como Scanner está en el paquete java.util debemos importarlo.
+1. Como Scanner está en el paquete java.util debemo importarlo.
 2. Inicializamos un objeto *Scanner* pasando el objeto System.in como parametro .
 3. Podemos usaro los métodos de lectura de esta clase: *nextInt, nextDouble y next, respectivamente para leer un int, un double y una palabra.*
 ```java
