@@ -10,7 +10,7 @@
     comento
 */
 
-import java.io.* //  Archivo de clases de E/S
+import java.io.* // Archivo de clases de E/S
 //java.io contiene clases y objetos relativos a entrada y salida de datos
 // el se utiliza para importar todo el contenido de java.io*
 

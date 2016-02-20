@@ -212,7 +212,9 @@ final int = MAX = 7;
 final char SALIR = 'X';
 ```
 
-***
+
+
+<!--
 
 ### 0.3 Mas tipos de datos
 
@@ -237,7 +239,7 @@ Se hace esto:
 	tipo[] variable = new tipo[tamaño];
 ```
 
-<!--  fafafa  -->
+
 
 ### 0.3.2 Arreglos multudimensionales o matrices.
 ```java
@@ -249,3 +251,4 @@ Se hace esto:
 
 	matriz = {{1,2},{3,4},{5,6}};
 ```
+-->
